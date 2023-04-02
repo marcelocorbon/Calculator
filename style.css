@@ -1,0 +1,53 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff69b4; /* rosa */
+  }
+  
+  select,
+  input[type="text"] {
+    
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+  }
+  
+  button[type="button"] {
+    background-color: #4b0082; /* roxo */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #800080; /* roxo mais claro */
+  }
+  
